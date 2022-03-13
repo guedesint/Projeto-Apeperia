@@ -11,6 +11,8 @@
 
     padding-top: .75rem;
     padding-bottom: .75rem;
+    padding-left: 6%;
+    padding-right: 6%;
 
     border-bottom: 1px solid var(--borda-cabecalho-mobile);
 
@@ -33,4 +35,14 @@
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
+}
+
+@media screen and (min-width:1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
+
+    
 }
